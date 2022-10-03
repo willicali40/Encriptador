@@ -1,0 +1,93 @@
+:root {
+    --body-color: #eef8fd;
+    --main-text-color: #0A3871;
+    --side-text-color: #495057;
+    --main-button-color: #0A3871;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-color);
+    display: flex;
+}
+
+header {
+    width: 20%;
+    height: 30px;
+    display: flex;
+    margin-top: 30px;
+}
+
+header img {
+    margin-left: 100px;
+}
+
+main {
+    width: 70%;
+    height: 80vh;
+    margin-top: 80px;
+}
+
+.input-section {
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.input-section input {
+    width: 100%;
+    height: 100%;
+}
+
+.bts-container {
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btn-encrypter {
+    color: #fff;
+    background-color: var(--main-button-color);
+}
+
+.btns-transparent {
+    color: var(--main-button-color);
+    border: 1px solid var(--main-button-color);
+}
+
+.display-section {
+    width: 40%;
+}
+
+.encrypter-display {
+    width: 70%;
+    height: 90vh;
+    background-color: #fff;
+    margin: 30px auto;
+    border-radius: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.encrypter-display p {
+    width: 90%;
+    height: 80%;
+    margin: 20px auto;
+}
+
+.copy-button {
+    background-color: #fff;
+}
