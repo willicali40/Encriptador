@@ -13,9 +13,10 @@
     </header>
     <main>
         <section class="input-section">
-            <input type="text">
+            <input id="input" type="text">
             <div class="bts-container">
-                <buttons class="btns btn-encrypter">
+                <span id="msn" ></span>
+                <buttons id="btn-encrypter" class="btns btn-encrypter">
                     Encriptar
                 </buttons>
                 <buttons class="btns btns-transparent">
@@ -26,13 +27,13 @@
     </main>
     <section class="display-section">
         <div class="encrypter-display">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus architecto quos. Enim dignissimos eum culpa ipsum error eius nostrum modi quo quam temporibus eveniet ad, repudiandae natus nihil doloremque!
+            <p id="msg">
             </p>
             <button class="btns copy-button btns-transparent">
                 Copiar
             </button>
         </div>
     </section>
+    <script src="./logic/main.js"></script>
 </body>
 </html>
