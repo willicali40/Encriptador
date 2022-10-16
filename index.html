@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/Vector.png">
     <title>Encriptador</title>
 </head>
 <body>
@@ -13,13 +17,16 @@
     </header>
     <main>
         <section class="input-section">
-            <input id="input" type="text">
+            <input word-break:"break-word" id="input" type="text" placeholder="ingrese el texto aqui" >
+            <span id="msn" >
+                <img src="./assets/informacion.png" alt="info icon">
+                Solo letras mayusculas
+            </span>
             <div class="bts-container">
-                <span id="msn" ></span>
                 <buttons id="btn-encrypter" class="btns btn-encrypter">
                     Encriptar
                 </buttons>
-                <buttons class="btns btns-transparent">
+                <buttons id="btn-unencrypt" class="btns btns-transparent">
                     Desencirptar
                 </buttons>
             </div>
@@ -29,7 +36,7 @@
         <div class="encrypter-display">
             <p id="msg">
             </p>
-            <button class="btns copy-button btns-transparent">
+            <button id="copy-btn" class="btns copy-button btns-transparent">
                 Copiar
             </button>
         </div>
